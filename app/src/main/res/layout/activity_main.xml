@@ -6,7 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.crib.slidetopay.SlideToActView
+        android:id="@+id/example_gray_on_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:animation_duration="250"
+        app:area_margin="4dp"
+        app:border_radius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="Swipe To Pay"
+        app:text_size="12sp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

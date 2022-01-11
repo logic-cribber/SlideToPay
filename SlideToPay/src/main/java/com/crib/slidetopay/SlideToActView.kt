@@ -40,7 +40,7 @@ import com.crib.slidetopay.SlideToActIconUtil.tintIconCompat
 
 /**
  *  Class representing the custom view, SlideToActView.
- *
+ * ref:-https://github.com/cortinico/slidetoact
  *  SlideToActView is an elegant material designed slider, that enrich your app
  *  with a "Slide-to-unlock" like widget.
  */
